@@ -1,7 +1,7 @@
 {
-  "name": "豆油ajax刷新",
+  "name": "豆油一键刷新",
   "version": "0.1",
-  "description": "给豆瓣\"我的收件箱\"页面增加ajax刷新",
+  "description": "在豆瓣\"我的收件箱\"页面增加按u键刷新豆油列表功能",
   "background_page": "background.html",
   "content_scripts" : [
     {
