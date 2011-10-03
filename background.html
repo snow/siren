@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+/**
+ *
+ * @author : snow@firebloom.cc
+ * @license : GPLv3
+ */
+  
+chrome.extension.onRequest.addListener(function(request, sender, sendResponse)
+{
+  chrome.pageAction.show(sender.tab.id);
+  sendResponse();
+});
+</script>
+</head>
+</html>

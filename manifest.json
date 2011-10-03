@@ -1,0 +1,25 @@
+{
+  "name": "豆油ajax刷新",
+  "version": "0.1",
+  "description": "给豆瓣\"我的收件箱\"页面增加ajax刷新",
+  "background_page": "background.html",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://www.douban.com/doumail/"
+      ],
+      "js" : ["jquery.min.js", "inject.js"],
+      "all_frames" : false,
+      "run_at" : "document_end"
+    }
+  ],
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "按u刷新豆油列表"
+  },
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  }
+}
