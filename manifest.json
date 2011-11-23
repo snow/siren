@@ -1,7 +1,7 @@
 {
-  "name": "豆油一键刷新",
-  "version": "0.1",
-  "description": "在豆瓣\"我的收件箱\"页面增加按u键刷新豆油列表功能",
+  "name": "豆油自动刷新",
+  "version": "0.2.2",
+  "description": "在豆瓣\"我的收件箱\"页面增加自动刷新豆油列表功能",
   "background_page": "background.html",
   "content_scripts" : [
     {
@@ -16,7 +16,7 @@
   "page_action" :
   {
     "default_icon" : "icon-19.png",
-    "default_title" : "按u刷新豆油列表"
+    "default_title" : "自动刷新豆油列表"
   },
   "icons" : {
     "48" : "icon-48.png",
