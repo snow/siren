@@ -32,5 +32,5 @@
       });
   }
 
-  setInterval(reload, 5000);
+  setInterval(reload, 10000);
 })(jQuery);
